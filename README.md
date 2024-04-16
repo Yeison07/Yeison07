@@ -1,6 +1,5 @@
 ### Hola soy Yeison, bienvenido a mi perfil👋
 <hr>
-<p>Learn learn learn.</p>
 <div align="center"><img src="https://i.imgur.com/TtrCodV.png" alt="Welcome!" width="500"/></div>
 
 ```javascript
