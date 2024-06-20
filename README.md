@@ -2,23 +2,24 @@
 <hr>
 <div align="center"><img src="https://i.imgur.com/TtrCodV.png" alt="Welcome!" width="500"/></div>
 
-```javascript
-const me = {
-   pronouns: "he" | "him",
-   code: [Java, Javascript, Go, HTML, CSS],
-   technologies: {
-      frontEnd: {
-         js: ["React, NextJS"]
-      },
-      backEnd: {
-         java: ["Spring"],
-         js: ["Node", "Express"],
-         misc: ["Jenkins", "SonarQube", "Junit"]
-      },
-      databases: ["MongoDB", "mySQL, mariaDB, postgres"]
-   },
-   currentOccupation: ["last year student, open for job opportunities"],
-};
+```go
+func main() {
+    me := Me{
+        Pronouns: "he | him",
+        Code:     []string{"Java", "Javascript", "Go", "HTML", "CSS"},
+        Technologies: Technologies{
+            FrontEnd: FrontEnd{
+                JS: []string{"React", "NextJS"},
+            },
+            BackEnd: BackEnd{
+                Java: []string{"Spring","JSF"},
+                JS:   []string{"Node", "Express"},
+                Misc: []string{"Jenkins", "SonarQube", "Junit"},
+            },
+            Databases: []string{"MongoDB", "mySQL", "mariaDB", "postgres"},
+        }
+    }
+}
 ```
     
 <!--
